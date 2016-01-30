@@ -1,4 +1,4 @@
-export default (target, ...keys) => {
+module.exports = (target, ...keys) => {
   let digged = target;
   for (const key of keys) {
     digged = digged[key];

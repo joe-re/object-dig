@@ -2,6 +2,7 @@
   "name": "object-dig",
   "version": "0.0.3",
   "description": "This allow you to use method like Ruby's hash#dig in JavaScript.",
+  "homepage": "https://github.com/joe-re/object-dig",
   "main": "dist/index.js",
   "scripts": {
     "prepublish": "mkdir -p dist && babel src/index.js -o dist/index.js",
@@ -10,6 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "engines" : {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  },
   "devDependencies": {
     "babel": "^6.3.26",
     "babel-cli": "^6.4.5",

@@ -11,6 +11,10 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "engines" : {
+    "node": ">=4.0.0",
+    "npm": ">=2.0.0"
+  },
   "devDependencies": {
     "babel": "^6.3.26",
     "babel-cli": "^6.4.5",

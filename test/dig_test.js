@@ -40,4 +40,15 @@ describe('dig', () => {
       });
     });
   });
+
+  context('give function object.', () => {
+    before(() => {
+      target = { a: { b: { c: 'c' } } };
+    });
+
+    it('executes function and receives result.', () => {
+      assert.equal(dig(target, 'a', 'b', 'c', (val) => `${val} was changed!`), `${target.a.b.c} was changed!`);
+    });
+  });
+
 });

@@ -13,6 +13,7 @@
   },
   "scripts": {
     "prepublish": "mkdir -p dist && babel src/index.js -o dist/index.js",
+    "build": "mkdir -p dist && babel src/index.js -o dist/index.js",
     "test": "mocha --require babel-core/register --recursive test"
   },
   "keywords": ["dig", "ruby", "javascript"],

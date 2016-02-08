@@ -30,6 +30,17 @@ dig(object, 'a', 'unknownProp', 'c');
 // =>undefined
 ```
 
+and you can give function object to dig.
+Function object's argument is result of just before evaluating.
+
+```js
+dig(object, 'a', 'b', 'c', (val) => `${val} was changed`);
+// => 'c was changed'
+
+dig(object, 'a', 'b', 'c', (val) => `${val} was changed`, (val) => `${val} more`);
+// => 'c was changed more'
+```
+
 # License
 
 MIT © [joe-re](https://github.com/joe-re)

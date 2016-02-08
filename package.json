@@ -1,6 +1,6 @@
 {
   "name": "object-dig",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "This allow you to use method like Ruby's hash#dig in JavaScript.",
   "homepage": "https://github.com/joe-re/object-dig",
   "main": "dist/index.js",
@@ -16,10 +16,14 @@
     "build": "mkdir -p dist && babel src/index.js -o dist/index.js",
     "test": "mocha --require babel-core/register --recursive test"
   },
-  "keywords": ["dig", "ruby", "javascript"],
+  "keywords": [
+    "dig",
+    "ruby",
+    "javascript"
+  ],
   "author": "joe-re",
   "license": "MIT",
-  "engines" : {
+  "engines": {
     "node": ">=4.0.0",
     "npm": ">=2.0.0"
   },

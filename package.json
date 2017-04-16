@@ -1,6 +1,6 @@
 {
   "name": "object-dig",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This allow you to use method like Ruby's hash#dig in JavaScript.",
   "homepage": "https://github.com/joe-re/object-dig",
   "main": "dist/index.js",

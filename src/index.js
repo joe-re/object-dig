@@ -4,7 +4,7 @@ module.exports = (target, ...keys) => {
     return undefined;
   }
   for (const key of keys) {
-    if (typeof digged === 'undefined') {
+    if (typeof digged === 'undefined' || digged === null) {
       return undefined;
     }
     if (typeof key === 'function') {

@@ -21,6 +21,14 @@ describe('dig', () => {
     });
   });
 
+  context('intermediate value is null', () => {
+    before(() => {
+      target = { a: { b: null}}
+    });
+    it('get undefined', () => {
+      assert.equal(dig(target, 'a', 'b', 'c'), undefined);
+    });
+  });
   context('find unknown key  on the way of digging.', () => {
     before(() => {
       target = { a: { b: { c: 'c' } } };

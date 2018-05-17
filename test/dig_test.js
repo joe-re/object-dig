@@ -4,6 +4,11 @@ import assert from 'power-assert';
 describe('dig', () => {
   let target = {};
 
+  context('target is null.', () => {
+    it('get undefined', () => {
+      assert.equal(dig(null, 'unknownProp'), undefined);
+    });
+  });
   context('target is undefined.', () => {
     it('get undefined', () => {
       assert.equal(dig(undefined, 'unknownProp'), undefined);

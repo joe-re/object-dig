@@ -1,3 +1,9 @@
+## 0.1.3 (2018-05-18)
+
+### Fix
+
+- Add support for null intermediate values ([#11](https://github.com/joe-re/object-dig/pull/11)) [@EricRoos](https://github.com/EricRoos)
+
 ## 0.1.2 (2018-05-17)
 
 ### Fix

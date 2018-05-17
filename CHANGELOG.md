@@ -1,3 +1,9 @@
+## 0.1.2 (2018-05-17)
+
+### Fix
+
+- Return undefined if target is null ([#9](https://github.com/joe-re/object-dig/pull/9)) [@EricRoos](https://github.com/EricRoos)
+
 ## 0.1.1 (2017-04-17)
 
 ### Fix
